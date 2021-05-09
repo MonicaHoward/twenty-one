@@ -21,12 +21,13 @@ const DomContent = () => (
     <div className={`${style.name} centerAlign`}>
       <div className={`${style.boxName} centerAlign`}>
         <h2>
-          Rolwin
+          Monica
           {' '}
-          <span>Reevan</span>
+          <span>Howard</span>
         </h2>
       </div>
-      <div className={`${style.badge} ${style.badgeGray}`}>Software Engineer</div>
+      <div className={`${style.badge} ${style.badgeGray}`}>Web Developer</div>
+      <div className={`${style.badge} ${style.badgeGray}`}>Instructor</div>
       <div className="centerAlign box">
         <a href={facebook} target="_blank" label="button" rel="noopener noreferrer"><FA name="facebook-f" /></a>
         <a href={twitter} target="_blank" label="button" rel="noopener noreferrer"><FA name="twitter" /></a>
@@ -36,22 +37,27 @@ const DomContent = () => (
       <ul className={`box ${style.badge} contactBlock`}>
         <li className={`${style.contactBlockItem}`}>
           <span>
-            <FeatherIcon size="19" icon="calendar" />
+            <FeatherIcon size="19" icon="phone" />
             {' '}
           </span>
-&nbsp; &nbsp; May 9,1995
+&nbsp; &nbsp; 682.247.1110
         </li>
         <li className={`${style.contactBlockItem}`}>
-          <span><FeatherIcon size="19" icon="map-pin" /></span>
+          <span><FeatherIcon size="19" icon="linkedin" /></span>
           {' '}
-&nbsp; &nbsp; Bangalore, India
+          <a
+            href="https://linkedin.com/in/monica-howard"
+          >
+&nbsp; &nbsp; Linkedin
+</a>
         </li>
+        
         <li className={`${style.contactBlockItem}`}>
           <span><FeatherIcon size="19" icon="mail" /></span>
           {' '}
 &nbsp; &nbsp;
           <a
-            href="mailto:&#114;&#111;&#108;&#119;&#105;&#110;&#109;&#111;&#110;&#116;&#101;&#105;&#114;&#111;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"
+            href="mailto:hi@monicahoward.net"
             target="_top"
           >
             <span className={style.emailHider}>@</span>
@@ -59,7 +65,7 @@ const DomContent = () => (
         </li>
       </ul>
       <div className={style.resumeDownload}>
-        <a href="../resume.pdf" download target="_blank">Download CV</a>
+        <a href="../Monica_Full_Stack_Developer_Javascript.pdf" download target="_blank">Download CV</a>
       </div>
     </div>
   </aside>
