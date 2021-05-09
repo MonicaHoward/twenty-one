@@ -6,16 +6,12 @@ import { stripTags, domHtml } from '../../../utils/stripTags';
 import SEO from '../../Seo';
 
 const pageText = {
-  paraOne: `Hello !! My name is Rolwin Reevan Monteiro. I'm a full stack web developer who is
-    passionate about various web technologies. I like to experiment with different web
-    technologies. I have an experience of nearly 3 years working with LAMP stack, MERN stack
-    and ELK stack. Building fancy UI's just like this one that your seeing 😅 and writing blogs about tech stacks
-    is what Rolwin loves to do. Check my blog which I update every week for some Javascript and some
-    cool notes on web technologies.`,
-  paraTwo: `Currently I work mostly with Javascript technologies like ReactJS and NodeJS. I also
-    have hands on experience working with cloud infrastructures like <b>AWS/GCP</b> and have deployed applications
-    keeping scalability in mind. Docker, Kubernetes, Jenkins, SonarQube are some of the cool
-    tools I use for <b>CI/ CD</b>. I'm always a learner and a self taught programmer.`,
+  paraOne: `Hello !! My name is Monica Howard. I'm a full stack web developer who is
+    passionate about building things with javascript. I like to experiment with different web
+    technologies, especially cool NPM packages. I have about 3 years of experience working with the MERN stack.`,
+  paraTwo: `I have spent the majority of my professional career teaching web technologies to both adults and children.
+    I typically teach javascript but I've taught other languages as well. One of the best parts of my current teaching gig is sharing "a-ha!" moments with my students`,  
+  paraThree: `Currently I am exploring smart contracts and blockchain web technologies such as solidity and web3.js.`,
 };
 
 const AboutMe = () => {
@@ -34,6 +30,7 @@ const AboutMe = () => {
           {pageText.paraOne}
         </p>
         <p dangerouslySetInnerHTML={domHtml(pageText.paraTwo)} />
+        <p dangerouslySetInnerHTML={domHtml(pageText.paraThree)} />
       </div>
       {/* <Row gutter={[20, 20]}>
         <Col xs={24} sm={24} md={12} lg={8}>
